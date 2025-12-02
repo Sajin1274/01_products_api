@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM eclipse-temurin:17
 
 COPY target/products_api.jar  /usr/app/
 
