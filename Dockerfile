@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk
+FROM openjdk:17
 
 COPY target/products_api.jar  /usr/app/
 
